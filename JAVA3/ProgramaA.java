@@ -2,19 +2,19 @@ package ExercicioJava;
 
 public class ProgramaA {
     
-    // atributos de leitura
+   
 public int va;
 public int vb;
 public int vc;
 public int vd;
 
 
-// métodos de leitura dos atributos
+
 void ler_A ( int a ) { this.va = a; }
 void ler_B ( int b ) { this.vb = b; }
 void ler_C ( int c ) { this.vc = c; }
 void ler_D ( int d ) { this.vd = d; }
-// métodos para calcular os resultados
+
 int calculaP () {
 int P = (this.va * this.vc);
 return P; }
@@ -23,7 +23,6 @@ int calculaS () {
 int S = (this.vb + this.vd);
 return S; }
 
-// método de exibição dos resultados
 public void exibir ( ) {
  int P = calculaP();
  int S = calculaS();
