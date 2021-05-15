@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package AulaVetores;
 
 import java.util.Scanner;
@@ -26,7 +21,7 @@ public static void main ( String [] args )
 
  
 
-// for de entrada de dados
+
   for (int i = 0; i < n ; i ++)
   {
     System.out.print("\nDigite salário:");
@@ -47,7 +42,6 @@ public static void main ( String [] args )
  
 
 
-// for de saida ou impressao de resultados 
 for ( int i = 0; i <= (n-1); i ++)
 { 
   novoSal = sal [ i ] * 1.1;
