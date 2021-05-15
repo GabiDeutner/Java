@@ -9,8 +9,8 @@ public static void main (String [] args) {
 Scanner leitor = new Scanner(System.in);
 String letra, frase;
 System.out.println("\nDigite a frase:");
-frase = leitor.nextLine();// ler um texto
-int n = frase.length(); // tamanho do string
+frase = leitor.nextLine();
+int n = frase.length(); 
 for (int i = 0; i < n ; i ++) {
  letra = frase.substring (i, i+1);
  System.out.println("\n"+letra); }
