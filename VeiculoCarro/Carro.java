@@ -21,7 +21,7 @@ Scanner leitor = new Scanner(System.in);
   while (tecla != 3)
   {
       System.out.print("\n**MENU**\n1 Cadastrar\n2 Exibir\n3 Sair\n item:");
-      //System.out.print("\n3 Sair\n item:");
+     
       tecla = leitor.nextInt();
       
       switch (tecla)
