@@ -8,7 +8,7 @@ public class Classe3
     {
         double saldoInd =0, mediaInd = 0, contInd = 0;
         
-        for ( int i = x  ; i <= y ; i ++) // i = i + 1
+        for ( int i = x  ; i <= y ; i ++) 
         {
             if ( i % 3 != 0 )
             {
