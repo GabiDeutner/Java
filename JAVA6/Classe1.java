@@ -3,30 +3,30 @@ package aulaWhile;
 public class Classe1 { 
     
 public int contZeros( String texto ) {    
-int cont=0; // contador de ciclos
+int cont=0; 
 
-int contzeros =0; // conta os zeros
+int contzeros =0; 
 
-String x; //armazena os caracteres do nosso texto
+String x; 
 
-while ( cont < texto.length() ){ // enquanto cont for menor que o tamanho do texto (quantidade de caracteres)
-    x = texto.substring(cont, cont + 1); // vai cortar o texto da posiçao 0 até a posiçao 1, da posição 1 até a 2, assim sucessivamente
- //o x é a variável que recebe texto.substring é para ele ficar vendo de posição em posição as letras contidas na String texto
-    if ( x.equals("0") ) { // quando x encontrar um zero ele vai fazer a contagem no contador
+while ( cont < texto.length() ){ 
+    x = texto.substring(cont, cont + 1); 
+ 
+    if ( x.equals("0") ) { 
      contzeros ++;
-     //contzeros = contzeros + 1
+  
  }
  
- cont ++; } // fim do while
+ cont ++; } 
 
-return contzeros; } // fim contzeros
+return contzeros; } 
 
 public void executar () {
     
-    String t = "prog00124000els" ; // t é um objeto e tem um texto dentro dele com varios zeros
-    //cada caractere desse texto ocupa uma posição
+    String t = "prog00124000els" ; 
     
-    int zeros = contZeros ( t ); //esse t cai dentro do objeto texto
+    
+    int zeros = contZeros ( t ); 
     
  System.out.println("\nQuantidade de zeros:"+zeros);}
 public static void main(String []agrs) { Classe1 m = new Classe1 ();
