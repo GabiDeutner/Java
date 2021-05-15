@@ -1,17 +1,3 @@
-/*
-Faça uma classe onde o usuário irá digitar um VALOR qualquer de uma prestação
-e também uma quantidade de DIAS qualquer. Após a leitura calcule o valor de
-PGTO acrescentando o valor de uma MULTA de acordo com uma TAXAMULTA de 2% e
-também o valor do JUROS em função da quantidade de DIAS em atraso, sendo que
-a TAXAJUROS por dia será 1/30, defina as duas taxas como atributos constantes. 
-Os seguintes atributos serão vetores de entrada com tamanho 3:   VALOR [3], 
-DIAS [3]. O vetor de saida com tamanho 3 será: PGTO[3].
-
-Não é necessário fazer herança, mas faça um menu de controle com as seguintes
-opções: 1 ler, 2 calcular 3 exibir, 4 sair
-*/
-
-
 package UltimaAula;
 
 import java.util.Scanner;
