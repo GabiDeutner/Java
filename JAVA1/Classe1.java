@@ -13,7 +13,7 @@ public class Classe1
     {
          Scanner leitor = new Scanner(System.in); 
          
-    for ( cont = 1 ; cont <= 5 ; cont ++) // cont = cont + 1
+    for ( cont = 1 ; cont <= 5 ; cont ++) 
         { 
             System.out.print ("\ncont=" + cont);
             System.out.print (" | X...=" + X);
@@ -24,7 +24,7 @@ public class Classe1
         
              R = X * cont;
         
-           //  System.out.println(cont + "o vez:" + R);
+           
              System.out.println(); 
         }
  
