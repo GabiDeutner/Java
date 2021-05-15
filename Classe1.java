@@ -3,19 +3,19 @@ import java.util.Scanner;
 
 public class Classe1 {
     
-// atributos de leitura
+
 public double va;
 public double vb;
 public double vc;
 
-// métodos de leitura dos atributos
+
 void ler_A ( double a ) { this.va = a; }
 void ler_B ( double b ) { this.vb = b; }
 void ler_C ( double c ) { this.vc = c; }
     
 
 
-// métodos para calcular os resultados
+
 double cal_Delta () {
 double delta = Math.pow(this.vb,2) - 4 * this.va *
 this.vc;
@@ -27,7 +27,7 @@ double cal_x2 (double delta ) {
 double x2 = (-this.vb - Math.sqrt(delta))/(2*this.va);
 return x2; }
 
-// método de exibição dos resultados
+
 public void exibir ( ) {
  double delta = cal_Delta();
  System.out.println("\n*** Tela de Saída ***\n");
@@ -68,6 +68,6 @@ case 2: System.out.println("\nO programa será finalizado!");
  return; }
  break; 
 }
-} // FIM DO WHILE
- }  // FIM DA CLASSE
+} 
+ }  
 
