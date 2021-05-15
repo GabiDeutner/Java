@@ -7,7 +7,7 @@ public class Classe2
 {   
     public int R;
     public int X;
-   // public int Y;
+
     
  public static void main(String[] args) 
  { 
