@@ -1,11 +1,3 @@
-/*2) Depois faça a classe principal contendo um menu de controle, o método main() e um
-método para ler cada atributo pelo teclado. Observem que a classe Pessoa deverá ser
-instanciada somente quando a opção de leitura de menu for selecionada, já que vcs irão
-utilizar um construtor com parametros para enviar os atributos lidos para dentro da classe
-Pessoa. 
-
- */
-
 package AulaJava5;
 
 import java.util.Scanner;
