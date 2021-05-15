@@ -4,7 +4,7 @@ public class Classe2 {
     
  public int x [ ]={1,2,3,4,5};
  
-Classe2 ( ) { } // construtor vazio
+Classe2 ( ) { } 
 
 Classe2 ( int [] tb ) {
 for ( int valor: tb )
