@@ -1,9 +1,3 @@
-/*
-Fazer o programa fonte: faça uma classe que busca e retorna quantas
-vezes uma palavra específica aparece dentro de um texto digitado. Leia e
-armazene a palavra dentro da variável PALAVRA é busque no texto
-quantas vezes esta palavra aparece. (Busca dentro de um string)
- */
 package AulaVetores;
 
 import java.util.Scanner;
@@ -46,61 +40,61 @@ palavra = leitor.next();
 
 System.out.println("Digite um texto com 10 palavras, dando enter entre cada palavra:");
 
-elemento = leitor.nextLine(); //0
+elemento = leitor.nextLine(); 
 v.adiciona(elemento);
 if (elemento.equals(palavra)){
    i = i +1; } else { i = i + 0;}
 
 
-elemento = leitor.nextLine();//1
+elemento = leitor.nextLine();
 v.adiciona(elemento);
 if (elemento.equals(palavra)){
    i = i +1; } else { i = i + 0;}
 
 
-elemento = leitor.nextLine();//2
+elemento = leitor.nextLine();
 v.adiciona(elemento);
 if (elemento.equals(palavra)){
    i = i +1; } else { i = i + 0;}
 
 
-elemento = leitor.nextLine();//3
+elemento = leitor.nextLine();
 v.adiciona(elemento);
 if (elemento.equals(palavra)){
    i = i +1; } else { i = i + 0;}
 
 
-elemento = leitor.nextLine();//4
+elemento = leitor.nextLine();
 v.adiciona(elemento);
 if (elemento.equals(palavra)){
    i = i +1; } else { i = i + 0;}
 
 
-elemento = leitor.nextLine(); //5
+elemento = leitor.nextLine(); 
 v.adiciona(elemento);
 if (elemento.equals(palavra)){
    i = i +1; } else { i = i + 0;}
 
 
-elemento = leitor.nextLine();//6
+elemento = leitor.nextLine();
 v.adiciona(elemento);
 if (elemento.equals(palavra)){
    i = i +1; } else { i = i + 0;}
 
 
-elemento = leitor.nextLine();//7
+elemento = leitor.nextLine();
 v.adiciona(elemento);
 if (elemento.equals(palavra)){
    i = i +1; } else { i = i + 0;}
 
 
-elemento = leitor.nextLine();//8
+elemento = leitor.nextLine();
 v.adiciona(elemento);
 if (elemento.equals(palavra)){
    i = i +1; } else { i = i + 0;}
 
 
-elemento = leitor.nextLine();//9
+elemento = leitor.nextLine();
 v.adiciona(elemento);
 System.out.println ("! Atingiu dez palavras !");
 if (elemento.equals(palavra)){
