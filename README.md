@@ -1,2 +1,2 @@
 # Java
- Java exercises that I did in college
+Listas de exercícios que solucionei durante a minha faculdade para aprender Java.
